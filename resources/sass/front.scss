@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.my_container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.table_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

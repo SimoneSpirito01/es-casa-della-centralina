@@ -14,6 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// interventi aperti
+Route::get('/interventions/open', 'Api\InterventionController@open');
+// interventi conclusi negli ultimi 30gg
+Route::get('/interventions/latests', 'Api\InterventionController@latests');
+// interventi conclusi o aperti in una data specifica
+Route::get('/interventions/{date}', 'Api\InterventionController@date');
+// nuovo intervento
+Route::post('/interventions/store', 'Api\InterventionController@store');
+
+
+// tecnici liberi
+Route::get('/technicians/free', 'Api\UserController@free');
+// lista tecnici
+Route::get('/technicians', 'Api\UserController@index');

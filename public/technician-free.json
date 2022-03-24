@@ -1,0 +1,220 @@
+[
+    {
+        "id": 1,
+        "name": "Aleardo ",
+        "surname": "Folliero",
+        "hire_date": "2019-10-18",
+        "email": "aleardo@gmail.com",
+        "email_verified_at": null,
+        "created_at": "2022-03-24T02:08:36.000000Z",
+        "updated_at": "2022-03-24T02:08:36.000000Z",
+        "workshop_id": 3,
+        "workshop": {
+            "id": 3,
+            "name": "Officina 3",
+            "created_at": "2022-03-24T02:08:36.000000Z",
+            "updated_at": "2022-03-24T02:08:36.000000Z"
+        },
+        "work_groups": [
+            {
+                "id": 3,
+                "name": "cs6+tpms",
+                "created_at": "2022-03-24T02:08:36.000000Z",
+                "updated_at": "2022-03-24T02:08:36.000000Z",
+                "pivot": {
+                    "user_id": 1,
+                    "work_group_id": 3
+                },
+                "categories": [
+                    {
+                        "id": 8,
+                        "name": "cs6",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 3,
+                            "category_id": 8
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "name": "tpms",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 3,
+                            "category_id": 6
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "ecm",
+                "created_at": "2022-03-24T02:08:36.000000Z",
+                "updated_at": "2022-03-24T02:08:36.000000Z",
+                "pivot": {
+                    "user_id": 1,
+                    "work_group_id": 6
+                },
+                "categories": [
+                    {
+                        "id": 3,
+                        "name": "ecm",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 6,
+                            "category_id": 3
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Luigina ",
+        "surname": "Trentino",
+        "hire_date": "2021-01-22",
+        "email": "luigina@gmail.com",
+        "email_verified_at": null,
+        "created_at": "2022-03-24T02:08:37.000000Z",
+        "updated_at": "2022-03-24T02:08:37.000000Z",
+        "workshop_id": 2,
+        "workshop": {
+            "id": 2,
+            "name": "Officina 2",
+            "created_at": "2022-03-24T02:08:36.000000Z",
+            "updated_at": "2022-03-24T02:08:36.000000Z"
+        },
+        "work_groups": [
+            {
+                "id": 5,
+                "name": "bcm+cs6",
+                "created_at": "2022-03-24T02:08:36.000000Z",
+                "updated_at": "2022-03-24T02:08:36.000000Z",
+                "pivot": {
+                    "user_id": 3,
+                    "work_group_id": 5
+                },
+                "categories": [
+                    {
+                        "id": 5,
+                        "name": "bcm",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 5,
+                            "category_id": 5
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "name": "cs6",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 5,
+                            "category_id": 8
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Ilenia ",
+        "surname": "Sabbatini",
+        "hire_date": "2019-12-01",
+        "email": "ilenia@gmail.com",
+        "email_verified_at": null,
+        "created_at": "2022-03-24T02:08:37.000000Z",
+        "updated_at": "2022-03-24T02:08:37.000000Z",
+        "workshop_id": 2,
+        "workshop": {
+            "id": 2,
+            "name": "Officina 2",
+            "created_at": "2022-03-24T02:08:36.000000Z",
+            "updated_at": "2022-03-24T02:08:36.000000Z"
+        },
+        "work_groups": [
+            {
+                "id": 3,
+                "name": "cs6+tpms",
+                "created_at": "2022-03-24T02:08:36.000000Z",
+                "updated_at": "2022-03-24T02:08:36.000000Z",
+                "pivot": {
+                    "user_id": 5,
+                    "work_group_id": 3
+                },
+                "categories": [
+                    {
+                        "id": 8,
+                        "name": "cs6",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 3,
+                            "category_id": 8
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "name": "tpms",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 3,
+                            "category_id": 6
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "tcm+abs+cs6",
+                "created_at": "2022-03-24T02:08:36.000000Z",
+                "updated_at": "2022-03-24T02:08:36.000000Z",
+                "pivot": {
+                    "user_id": 5,
+                    "work_group_id": 9
+                },
+                "categories": [
+                    {
+                        "id": 4,
+                        "name": "tcm",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 9,
+                            "category_id": 4
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "name": "abs",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 9,
+                            "category_id": 1
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "name": "cs6",
+                        "created_at": "2022-03-24T02:08:36.000000Z",
+                        "updated_at": "2022-03-24T02:08:36.000000Z",
+                        "pivot": {
+                            "work_group_id": 9,
+                            "category_id": 8
+                        }
+                    }
+                ]
+            }
+        ],
+        "interventions": []
+    }
+]

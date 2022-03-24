@@ -1,0 +1,95 @@
+[
+    {
+        "id": 3,
+        "user_id": 2,
+        "category_id": 6,
+        "workshop_id": 2,
+        "name": "Batteria ",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laborum nesciunt odio assumenda totam sed eos molestiae exercitationem inventore vel ipsam aut aperiam sint culpa alias omnis deleniti, atque repellat!",
+        "price": 9353.5,
+        "estimated_duration": 4,
+        "start_date": "2022-03-11",
+        "end_date": null,
+        "created_at": "2022-03-23T23:33:34.000000Z",
+        "updated_at": "2022-03-23T23:33:34.000000Z",
+        "user": {
+            "id": 2,
+            "name": "Tranquillino ",
+            "surname": "Conti",
+            "hire_date": "2016-10-20",
+            "email": "conti@gmail.com",
+            "email_verified_at": null,
+            "created_at": "2022-03-23T23:33:34.000000Z",
+            "updated_at": "2022-03-23T23:33:34.000000Z",
+            "workshop_id": 2
+        },
+        "category": {
+            "id": 6,
+            "name": "tpms",
+            "created_at": "2022-03-23T23:33:33.000000Z",
+            "updated_at": "2022-03-23T23:33:33.000000Z"
+        }
+    },
+    {
+        "id": 4,
+        "user_id": 4,
+        "category_id": 8,
+        "workshop_id": 2,
+        "name": "Sostituzione liquido e pasticche freni",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laborum nesciunt odio assumenda totam sed eos molestiae exercitationem inventore vel ipsam aut aperiam sint culpa alias omnis deleniti, atque repellat!",
+        "price": 8993.5,
+        "estimated_duration": 9,
+        "start_date": "2022-03-11",
+        "end_date": null,
+        "created_at": "2022-03-23T23:33:34.000000Z",
+        "updated_at": "2022-03-23T23:33:34.000000Z",
+        "user": {
+            "id": 4,
+            "name": "Petronio ",
+            "surname": "Pirozzi",
+            "hire_date": "2015-10-11",
+            "email": "petronio@gmail.com",
+            "email_verified_at": null,
+            "created_at": "2022-03-23T23:33:34.000000Z",
+            "updated_at": "2022-03-23T23:33:34.000000Z",
+            "workshop_id": 1
+        },
+        "category": {
+            "id": 8,
+            "name": "cs6",
+            "created_at": "2022-03-23T23:33:33.000000Z",
+            "updated_at": "2022-03-23T23:33:33.000000Z"
+        }
+    },
+    {
+        "id": 5,
+        "user_id": 4,
+        "category_id": 4,
+        "workshop_id": 1,
+        "name": "Filtro antipolline",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laborum nesciunt odio assumenda totam sed eos molestiae exercitationem inventore vel ipsam aut aperiam sint culpa alias omnis deleniti, atque repellat!",
+        "price": 1694.5,
+        "estimated_duration": 11,
+        "start_date": "2022-03-11",
+        "end_date": null,
+        "created_at": "2022-03-23T23:33:34.000000Z",
+        "updated_at": "2022-03-23T23:33:34.000000Z",
+        "user": {
+            "id": 4,
+            "name": "Petronio ",
+            "surname": "Pirozzi",
+            "hire_date": "2015-10-11",
+            "email": "petronio@gmail.com",
+            "email_verified_at": null,
+            "created_at": "2022-03-23T23:33:34.000000Z",
+            "updated_at": "2022-03-23T23:33:34.000000Z",
+            "workshop_id": 1
+        },
+        "category": {
+            "id": 4,
+            "name": "tcm",
+            "created_at": "2022-03-23T23:33:33.000000Z",
+            "updated_at": "2022-03-23T23:33:33.000000Z"
+        }
+    }
+]
